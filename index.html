@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- optional stylesheets -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <!-- jQuery -->
+     <<script
+     src="https://code.jquery.com/jquery-3.3.1.js"
+     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+     crossorigin="anonymous"></script>
+
+   
+
+    <script src="assets/javascript/game.js"></script>
+
+    <title>
+        Drink Game
+    </title>
+</head>
+<body>
+    <section class = "container-flex bg-dark text-center">
+        <div class = 'row py-5'>
+            <div class = "card my-3 bg-info col-9 col-sm-9 mx-auto pb-2">
+                <h1 class = 'card-header display-3 text-white'>
+                    Choose a Drink
+                </h1>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        To start the game, press the start button and you will be given a random number between 1 and 200.
+                    </li>
+                    <li class="list-group-item">
+                        There are 4 drinks below... Each drink will be assigned a random amount of points that will change every time the game restarts.
+                    </li>
+                    <li class="list-group-item">
+                        Win by matching your score to the random number given at game start.
+                    </li>
+                </ul>
+            </div>
+            <div class= "row">
+                <div class = "card col-8 col-sm-8 mx-auto my-2 mb-4 bg-secondary">
+                    <h1 class = 'card-header text-white'>
+                        Game Board
+                    </h1>
+                    <ul class="list-group">
+                        <li class="list-group-item">  
+                            Random Number:
+                            <span id = "gameNumber"></span>
+                        </li>
+                        <li class="list-group-item">  
+                            Your Number:
+                            <span id="userNumber"></span>
+                        </li>
+                        <li class="list-group-item">  
+                            Guesses Left:
+                            <span id="guess"></span>
+                        </li>
+                        <li class="list-group-item">
+                            Wins:
+                            <span id="win"></span>
+                        </li>
+                         <li class="list-group-item">
+                            Losses:
+                            <span id="lost"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "row mx-auto">
+                    <button type="button" class="btn btn-success col-2 col-sm-2 mx-auto">
+                        <img src="assets/images/drink1.png" class="img-thumbnail my-2" alt = "drink 1" />
+                        <p>
+                            Drink 1
+                        </p>
+                    </button>
+                    <button type="button" class="btn btn-success col-2 col-sm-2 mx-auto">
+                        <img src="assets/images/drink2.png" class= "img-thumbnail my-2" alt = "drink 2" />
+                        <p>
+                            Drink 2
+                        </p>
+                    </button>
+                    <button type="button" class="btn btn-success col-2 col-sm-2 mx-auto">
+                        <img src="assets/images/drink3.png" class="img-thumbnail my-2" alt = "drink 3" />
+                        <p>
+                            Drink 3
+                        </p>
+                    </button>
+                    <button type="button" class="btn btn-success col-2 col-sm-2 mx-auto">
+                        <img src="assets/images/drink4.png" class="img-thumbnail my-2" alt = "drink 4" />
+                        <p>
+                            Drink 4
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
