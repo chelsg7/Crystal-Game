@@ -21,7 +21,10 @@ var setLives = function(){$('#guess').html(lives)};
 var setUserNumber = function(){$('#userNumber').html(userNumberStart)};
 
 // Original Game Controls
-/* var drink1 = function(){$('#drink1').on("click", function(){$('#userNumber').html(userNumberStart + val1)})}; */
+var drink1 = function(){$('#drink1').on("click", function(){$('#userNumber').html(userNumberStart += val1)})};
+var drink1 = function(){$('#drink2').on("click", function(){$('#userNumber').html(userNumberStart += val2)})};
+var drink1 = function(){$('#drink3').on("click", function(){$('#userNumber').html(userNumberStart += val3)})};
+var drink1 = function(){$('#drink4').on("click", function(){$('#userNumber').html(userNumberStart += val4)})};
 
 
 $(document).ready(function(){
