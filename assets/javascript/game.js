@@ -1,14 +1,14 @@
 // Original Game Board Values
 var wins = 0;
 var losses = 0;
-var gameRandom = Math.floor((Math.random() * 200) + 1);
+var gameRandom = Math.floor((Math.random() * 120) + 19);
 var lives = 25;
 var userNumberStart = 0;
 var userNum = 0;
-var val1 = Math.floor((Math.random() * 10) + 1);
-var val2 = Math.floor((Math.random() * 30) + 1);
-var val3 = Math.floor((Math.random() * 25) + 1);
-var val4 = Math.floor((Math.random() * 5) + 1);
+var val1 = Math.floor((Math.random() * 12) + 1);
+var val2 = Math.floor((Math.random() * 1) + 1);
+var val3 = Math.floor((Math.random() * 6) + 1);
+var val4 = Math.floor((Math.random() * 6) + 1);
 var gameWin = false;
 
 
@@ -141,7 +141,7 @@ $(document).ready(function(){
             setUserNumber();
             reset();
         } else if ((gameWin === false) && (lives === 0)){
-             userNumberStart === 0;
+            userNumberStart === 0;
             setUserNumber();
             reset();
         };

@@ -7,25 +7,25 @@
 
     <!-- optional stylesheets -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-   
+    
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- 
+    <link rel="stylesheet" type="text/css" media = "screen" href="assets/css/bootstrap4-daydream.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
     <title>
         Drink Game
     </title>
 </head>
-<body>
-    <section class = "container-flex bg-dark text-center">
+<body class="bg-dark">
+    <section class = "text-center">
         <!-- <div class= "row container mx-auto">
             <img src='assets/images/princess3.png' src='the princess bride' class = 'col-4 mx-auto pt-5'/>
         </div> -->
-        <div class = 'row container mx-auto'>
+        <div class = 'container mx-auto'>
             <div class = "card col-12 bg-info mx-auto pb-3 mt-5">
-                <h1 class = 'card-header h1 align-middle'>
+                <h1 class = 'card-header h1'>
                     <img src='assets/images/vizzini.jpeg' src='the princess bride' class = 'mx-auto d-block rounded img-fluid'/>
                     Inconceivable!
                 </h1>
@@ -51,8 +51,8 @@
                     </li>
                 </ul>
             </div>
-            <div class= "row container">
-                <div class = "card col-10 mx-auto bg-warning my-4 pb-3">
+            <div class= "container">
+                <div class = "card col-12 mx-auto bg-warning my-4 pb-3">
                     <h1 class = 'card-header align-middle'>
                         Game Board
                     </h1>
@@ -79,9 +79,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="container card mb-5 bg-secondary">
-                    <button class="btn btn-primary mx-auto mt-5" id='start'>
-                        Start
+                <div class="container card mb-5 bg-info">
+                    <button class="btn btn-lg btn-danger mx-auto mt-5 btn-block col-6" id='start'>
+                        Start the Game!
                     </button>
                     <div class = "row mx-auto my-5">
                         <button type="button" class="btn btn-success col-2 col-sm-2 mx-auto drink" id='drink1'>
